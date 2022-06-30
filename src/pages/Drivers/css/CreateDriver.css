@@ -1,11 +1,13 @@
 .CreateDriver {
     padding: 20px;
-    display: flex;
-    gap: 20px;
+    /* display: flex;
+    gap: 20px; */
 }
 
 .CreateDriver>* {
     margin-bottom: 30px;
+    min-width: 500px;
+    max-width: 70%;
 }
 
 .CreateDriver .header {
