@@ -19,7 +19,7 @@ function Permissions() {
             <div className='content' style={{ display: open ? "block" : "none" }}>
                 <div className='form'>
 
-                    <div className='permission-field'>
+                    <div className='permission-field sub-head'>
                         <p className='label-head'>Departments</p>
                         <div className='input-box rad'>
                             <div className='option-head'>
@@ -70,7 +70,7 @@ function Permissions() {
                         </div>
                     </div>
 {/* Extrsa --------------------------------------------- permissions  */}
-                    <div className="assign_search">
+                    {/* <div className="assign_search">
                         <p></p>
                         <div className='search-field'>
                             <input type="text"/>
@@ -81,7 +81,7 @@ function Permissions() {
                             <li>Sinotrans Logistics</li>
                             <li>Luico Suppliers</li>
                         </ul>
-                    </div>
+                    </div> */}
 
                     <div className='permission-field'>
                         <p className='label'>Truck Management</p>
@@ -161,9 +161,9 @@ function Permissions() {
                             </div>
                         </div>
                     </div>
-                    <p>Note: Employees will only receive notifications from vendors &amp; customers with whom
+                    {/* <p>Note: Employees will only receive notifications from vendors &amp; customers with whom
                         they are assigned.
-                    </p>
+                    </p> */}
                 </div>
             </div>
         </div>

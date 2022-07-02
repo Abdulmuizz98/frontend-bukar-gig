@@ -29,7 +29,7 @@ function UserPassword() {
                         <div className='input-field'>
                             <p className='label'>Confirm Password</p>
                             <div className='input-box'>
-                                <input type="password" />
+                                <input type="password" className="pass"/>
                             </div>
                         </div>
                         <div className='input-field'>
