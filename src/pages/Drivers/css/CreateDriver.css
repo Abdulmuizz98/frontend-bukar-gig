@@ -93,7 +93,9 @@
 }
 
 .CreateDriver .buttons-main{
-    justify-content: space-between;
-    min-width: 800px;
-    max-width: 1200px;
+    justify-content: flex-end;
+    min-width: 500px;
+    max-width: 70%;
+    /* min-width: 800px;
+    max-width: 1200px; */
 }
