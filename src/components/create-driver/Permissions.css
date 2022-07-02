@@ -2,8 +2,6 @@
     background: white;
     border-radius: 5px;
     padding: 14px;
-    /* min-width: 800px; */
-    /* max-width: 70%; */
 }
 
 /* .permissions .form . */
@@ -16,7 +14,8 @@
 }
 .Permissions .form .permission-field .input-box.rad {
     display: flex;
-    width: 20%;
+    width: 15%;
+    gap: 2rem;
     justify-content: space-around;
     align-items: center;
 }
