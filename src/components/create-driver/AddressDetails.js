@@ -82,13 +82,13 @@ function AddressDetails() {
                         </div>
                     </div>
                     <div className='row row-4'>
-                        <div className='input-field'>
+                        <div className='input-field last-line'>
                             <p className='label'>Emergency Contact Name</p>
                             <div className='input-box'>
                                 <input type="text" />
                             </div>
                         </div>
-                        <div className='input-field'>
+                        <div className='input-field last-line'>
                             <p className='label'>Emergency Contact No.</p>
                             <div className='input-box'>
                                 <input type="text" />
