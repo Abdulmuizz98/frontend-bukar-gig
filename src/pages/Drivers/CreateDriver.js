@@ -21,7 +21,6 @@ function CreateDriver() {
                 <Button className='submit' margin={"0px 0px 0px 20px"} color={"var(--white)"} background={"var(--blue)"} label={"Save"} />
                 </div>
             </div>
-
         </div>
     )
 }
