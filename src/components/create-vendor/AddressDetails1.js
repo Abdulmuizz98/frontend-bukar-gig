@@ -36,7 +36,7 @@ function AddressDetails1() {
                             <p className='label'>Zone</p>
                             <div className='input-box'>
                                 <select defaultValue="default">
-                                    <option value="default">Zone</option>
+                                    <option value="default">Select one</option>
                                 </select>
                             </div>
                         </div>
