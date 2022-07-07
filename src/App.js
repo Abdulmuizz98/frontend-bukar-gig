@@ -20,6 +20,8 @@ import SupplierList from "./pages/Vendors/SupplierList";
 import SupplierReport from "./pages/Vendors/SupplierReport";
 
 import CreateDriver from "./pages/Drivers/CreateDriver";
+import CreateCustomer from "./pages/Customer/CreateCustomer";
+import CreateTruck from "./pages/Truck/CreateTruck";
 
 function App() {
   return (
@@ -41,6 +43,8 @@ function App() {
         <Route path="/supplier-report" element={<Protected><Page><SupplierReport /></Page></Protected>} />
 
         <Route path="/create-driver" element={<Protected><Page><CreateDriver /></Page></Protected>} />
+        <Route path="/create-customer" element={<Protected><Page><CreateCustomer /></Page></Protected>} />
+        <Route path="/create-truck" element={<Protected><Page><CreateTruck /></Page></Protected>} />
       </Routes>
     </div>
   );

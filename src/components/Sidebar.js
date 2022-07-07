@@ -141,7 +141,7 @@ function Sidebar() {
                         <IoMdArrowDropdown />
                     </div>
                     <div className='children' style={{ display: customerOpen ? "block" : "none" }}>
-                        <p>Create Customer</p>
+                        <Link to="/create-customer"><p>Create Customer</p></Link>
                         <p>Customer List</p>
                     </div>
                 </div>
@@ -157,7 +157,7 @@ function Sidebar() {
                         <IoMdArrowDropdown />
                     </div>
                     <div className='children' style={{ display: truckOpen ? "block" : "none" }}>
-                        <p>Create Truck</p>
+                        <Link to="/create-truck"><p>Create Truck</p></Link>
                         <p>Truck List</p>
                         <p>Truck Report</p>
                         <p>Fuel Maintenance</p>
