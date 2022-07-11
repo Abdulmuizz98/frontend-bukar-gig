@@ -1,0 +1,99 @@
+.CreateUser {
+    padding: 20px;
+}
+
+.CreateUser>* {
+    margin-bottom: 30px;
+    min-width: 500px;
+    max-width: 70%;
+}
+
+.CreateUser .header {
+    display: flex;
+    padding: 10px 0;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.CreateUser .header h1 {
+    font-family: 'Nunito', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 135%;
+    color: var(--blue);
+}
+
+.CreateUser .header .icon {
+    font-size: 26px;
+    cursor: pointer;
+}
+
+.CreateUser .content {
+    padding: 20px 0;
+}
+
+.CreateUser .form .row {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    padding: 20px 0;
+}
+
+
+.CreateUser .input-field .input-box {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    position: relative;
+}
+
+.CreateUser .input-field .label {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 140%;
+    display: flex;
+    align-items: center;
+    color: #7C7C7C;
+    padding-bottom: 4px;
+}
+
+.CreateUser .input-field .input-box input,
+.CreateUser .input-field .input-box select,
+.CreateUser .input-field .input-box textarea {
+    flex-grow: 1;
+    padding: 10px 15px;
+    border-radius: 5px;
+    outline: none;
+    border: 1px solid #DFDFDF;
+    font-family: 'Nunito', sans-serif;
+    font-size: 16px;
+    resize: none;
+    background: var(--white);
+}
+
+.CreateUser .input-field .input-box input:focus,
+.CreateUser .input-field .input-box textarea:focus {
+    outline: none;
+    border: 1px solid var(--blue);
+}
+
+.CreateUser .input-field .input-box select option {
+    background: white;
+    color: var(--black);
+}
+
+.CreateUser .buttons-main,
+.CreateUser .buttons-main .right {
+    display: flex;
+    align-items: center;
+}
+
+.CreateUser .buttons-main{
+    justify-content: space-between;
+    min-width: 500px;
+    max-width: 70%;
+    /* min-width: 800px;
+    max-width: 1200px; */
+}
