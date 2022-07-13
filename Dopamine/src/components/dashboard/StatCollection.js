@@ -4,6 +4,7 @@ import './StatCollection.css'
 import AttendanceChart from "./AttendanceChart";
 import IncomeChart from "./IncomeChart";
 import PaymentChart from "./PaymentChart";
+import Appointment from './Appointment';
 
 
 
@@ -15,7 +16,8 @@ function StatCollection() {
      <AttendanceChart />
      <IncomeChart />
      <PaymentChart />
-    </div> 
+     <Appointment/>
+    </div>
   )
 }
 

@@ -1,0 +1,40 @@
+.Appointment .content .row{
+    display: flex;     
+    padding: 0px 5px;                
+    justify-content: space-between;                                                                                         
+
+}
+.Appointment .header{
+    display: flex;     
+    /* padding: 0px 5px;                 */
+    margin: 0px 20px;                                                                            
+    justify-content: space-between;     
+    margin-bottom: 30px;    
+    align-items: center;     
+
+}
+.Appointment .content .row .text{
+    display: flex;      
+    gap: 10px;                                                                                      
+}
+.Appointment .content .row span{
+    border-radius: 50%;
+    background-color: rgba(110, 167, 248, 0.35);
+    color: var(--blue);
+    padding: 10px 12px;           
+    margin-top: -10px;                                                                         
+}
+
+.Appointment .content{
+    padding: 0px 20px 0px 10px;
+}
+.Appointment .content .LabelledDivider{
+    padding: 10px 0px 17px 0px;
+}
+.Appointment .header div{
+    display: flex;
+    align-items: center;
+}
+.Appointment .header div .icon{
+    /* margin-top: 10px; */
+}
