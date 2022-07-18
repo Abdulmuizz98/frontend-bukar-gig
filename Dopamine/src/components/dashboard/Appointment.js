@@ -8,11 +8,6 @@ import './Appointment.css'
 
 function Appointment() {
     
-    const [open, setOpen] = useState(true);
-
-    function handleOpen() {
-        setOpen(!open);
-    }
 
     return (
         <div className='container Appointment'>
@@ -23,7 +18,7 @@ function Appointment() {
                 </div>
                 <div>
                     <h2 className='heading-2'>Today</h2>
-                    <BiChevronDown className='icon' style={{ transform: open ? "rotateX(180deg)" : "rotateX(0deg)" }} onClick={() => { handleOpen() }} />
+                    <BiChevronDown className='icon' style={{ }} />
                 </div>
             </div>
             <div className='content'>

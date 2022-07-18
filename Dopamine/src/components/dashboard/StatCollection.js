@@ -1,8 +1,8 @@
 import React from 'react'
 import StatCard from './StatCard'
 import './StatCollection.css'
-import AttendanceChart from "./AttendanceChart";
-import IncomeChart from "./IncomeChart";
+import AttendanceChart from "./IncomeChart";
+import IncomeChart from "./AttendanceChart";
 import PaymentChart from "./PaymentChart";
 import Appointment from './Appointment';
 

@@ -16,6 +16,7 @@
   justify-content: space-between;
 }
 
+
 .StatCollection .header h1 {
   font-family: 'Nunito', sans-serif;
   font-style: normal;
@@ -25,19 +26,34 @@
   color: var(--blue);
 } */
 /* Mine */
+
 .StatCollection{
   display: grid;
   grid-template-columns: 280px repeat(3, 1fr);
   grid-template-rows: repeat(3, 260px);
   /* overflow: hidden; */
   gap: 25px 24px;
-  padding: 20px;
+  padding: 20px; 
 }
 
 .StatCollection .StatCard{
   grid-column: 2 / span 3;
   grid-row: 2 / span 2;
   /* margin-top: -20px; */
+}
+.StatCollection .header{
+  display: flex;     
+  /* padding: 0px 5px;                 */
+  margin: 0px 20px;  
+  height: 60px;                                                                          
+  justify-content: space-between;     
+  /* margin-bottom: 30px;     */
+  align-items: center;     
+
+}
+.StatCollection .header div{
+  display: flex;
+  align-items: center;
 }
 .StatCollection .StatCard .Table{
   grid-column: 2 / span 3;
@@ -59,5 +75,9 @@
   overflow: hidden;
   background-color: white;
   /* height: 200px; */
+}
+.StatCollection .chart-container{
+  overflow: hidden;
+  margin-top: -20px;
 }
 /* Mine */

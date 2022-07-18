@@ -1,7 +1,8 @@
 import React, { useEffect, useState } from 'react'
+import {BiChevronDown, BiChevronRight } from 'react-icons/bi'
 import './Table.css'
 
-function Table({ data, mapping, colored }) {
+function Table({ head1, head2, data, mapping, colored }) {
 
     let [pagination, setPagination] = useState({ data: [] });
     let [pageindex, setIndex] = useState(0);
@@ -59,7 +60,20 @@ function Table({ data, mapping, colored }) {
 
     return (
         <div>
+
             <div className='Table'>
+            {/* <div className="container PaymentChart"> */}
+                <div className='header'>
+                    <div>
+                        <h1 className='heading'>{head1}</h1>
+                        <BiChevronRight className='icon' style={{ marginTop: -3}} />
+                    </div>
+                    <div>
+                        <h2 className='heading-2'>{head2}</h2>
+                        <BiChevronDown className='icon' style={{ }} />
+                    </div>
+                </div>
+
                 <table>
                     <thead><tr>{getTableHead(mapping[0])}</tr></thead>
                     <tbody>{getTableData(pagination.data[pageindex])}</tbody>

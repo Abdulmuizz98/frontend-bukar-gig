@@ -1,75 +1,44 @@
 import React from "react";
-import Chart from 'react-apexcharts'
+// import Chart from 'react-apexcharts';
+import { BiChevronDown, BiChevronRight } from 'react-icons/bi'
+import { CircularProgressbar, CircularProgressbarWithChildren } from 'react-circular-progressbar';
+import 'react-circular-progressbar/dist/styles.css';
 import './IncomeChart.css'
 
 function IncomeChart() {
+    const percentage = 80;
+    
 
-  
-    return[
-       <React.Fragment>
-        <div className="container">
-        <p className="text-center">Attendance </p>
-        <p className="text-center"> monthly</p>
-            <div className=" dnt">
-            <Chart
-            type="donut"
-            width={300}
-            height={300}
-            series={[84,16 ]}
-            
-             
-            options={{
-                 
-                labels:['gold','diamond'],
-                plotOptions: {
-                    pie: {
-                        expandOnClick: false,
-                        donut: {
-                     labels: {
-                     show: true,
-                     total: {
-                     show: true,
-                     label: '',
-                     formatter: () => 'Text you want'
-                     }
-                     }
-                     },
-                      startAngle: -110,
-                      endAngle: 110,
-                      offsetY: 50,
-                      offsetX: 40
-                    }
-                    
-                  },
-                  grid: {
-                    padding: {
-                      // bottom: -50
-                    }
-                  },
-                  
-                  responsive: [{
-                    breakpoint: 480,
-                    options: {
-                      chart: {
-                        width: 700
-                      },
-                      legend: {
-                        position: 'bottom'
-                      }
-                    }
-                  }],
-                
-                
+    return( 
+        <div className="container IncomeChart">
+          <div className='header'>
+              <div>
+                  <h1 className='heading'>Income </h1>
+                  <BiChevronRight className='icon' style={{ marginTop: -3}} />
+              </div>
+              <div>
+                  <h2 className='heading-2'>Monthly</h2>
+                  <BiChevronDown className='icon' style={{ }} />
+              </div>
+          </div>
+          <div className='content chart-container'>
+          <CircularProgressbarWithChildren value={percentage} text={`${90}k`}
+            styles={{
+              pathColor: `rgb(53, 120, 213)`,
+              textColor: '#ddd',
+              trailColor: '#3578d5',
+              backgroundColor: '#fff',
+              stroke: '#3578d5'
             }}
-            
-           
-                
-            />
+          >
+
+            <div style={{ fontSize: 14, marginTop: 325, color: "#7c7c7c"}}>
+              <span>March, 22</span> 
+            </div>
+          </CircularProgressbarWithChildren>
         </div>
-        </div>
-        
-       </React.Fragment>
-    ]
+      </div>
+    )
 }
 
 export default IncomeChart;

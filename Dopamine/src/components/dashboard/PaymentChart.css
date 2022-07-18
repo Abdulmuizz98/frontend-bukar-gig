@@ -1,12 +1,15 @@
-.dnt{
+/* .dnt{
     width: 90%;
-    height: 90%;
-}
+    height: 90%; */
+/* }
 .container{
     background-color: aliceblue;
     border-radius: 20px;
     width: 100px;
-}
+} */
 .t-center{
     margin-top: 10px;
+}
+.PaymentChart .chart-container{
+    margin-right: 15px;
 }
